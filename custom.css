@@ -3,6 +3,7 @@ body {
 }
 .img-responsive {
   max-width: 100%;
+  position: center;
 }
 
 .a2_image{
