@@ -13,7 +13,8 @@ body {
 		
 }
 .a2_wrapper {
-	color:red;
+	color:blue;
+	font-weight: bolder;
 	position: absolute;
 	top: 50%;
 	left: 50%;
