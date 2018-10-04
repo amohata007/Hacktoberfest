@@ -1,5 +1,7 @@
 body {
 	font-family: 'Courgette', cursive;
+	border: 0;
+	margin: 0;
 }
 .img-responsive {
   max-width: 100%;
@@ -7,9 +9,11 @@ body {
 }
 
 .a2_image{
-	   background: url(a2image.jpg);
+	   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url(a2image.jpg);
+	   background-size: cover;
+	   background-attachment: fixed;
 	   height: 100vh;
-	   	position: relative;
+		position: relative;
 		
 }
 .a2_wrapper {
@@ -67,7 +71,7 @@ body {
 	border-radius: .3rem;
 }
 .product {
-	width: 90%;
+	width: 80%;
 	margin-top: .3rem;
 	margin-left: auto;
 	margin-right: auto;
@@ -77,4 +81,8 @@ body {
 	float: left;
 	width: 32%;
 	margin-left: .5rem;
+}
+.container{
+	padding-left: 115%;
+	padding-right: 115%;
 }
