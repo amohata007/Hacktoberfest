@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body,html {
 	font-family: 'Times New Roman', Times, serif;
 	height: 100%;
@@ -56,3 +57,291 @@ input[type=text], input[type=password] {
   .btn:hover {
 	opacity: 1;
   }
+||||||| merged common ancestors
+body,html {
+	font-family: 'Times New Roman', Times, serif;
+	height: 100%;
+	
+}
+
+.bg-img {
+	/* The image used */
+	background-image: url("img/a2image.jpg");
+  
+	/* Control the height of the image */
+	min-height: 380px;
+  
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+  }
+  
+/* Add styles to the form container */
+.container {
+	position: absolute;
+	right: 0;
+	margin: 20px;
+	max-width: 300px;
+	padding: 16px;
+	background-color: rgb(33, 209, 101);
+  }
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+	width: 90%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: whitesmoke;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+	background-color: rgb(225, 238, 49);
+	color: black;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	font-weight: bold;
+	opacity: 0.9;
+  }
+  
+  .btn:hover {
+	opacity: 1;
+  }
+
+/* .img-responsive {
+  max-width: 100%;
+  position: center;
+} */
+
+/* .a2_image{
+	   background-image: url(img/quiz.jpg);
+	   background-size: cover;
+	   height: 100vh;
+	   position: relative;
+		
+} */
+/* .a2_wrapper {
+	color:blue;
+	font-weight: bolder;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+} */
+/* .a2_wrapper h1 {
+	font-size: 2.4rem;
+	text-align: center;
+}
+.a2_wrapper span{
+	margin-left: 5rem;
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+
+.form_code {
+	text-align: center;
+}
+
+.form_code .post_code {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding: .6rem;
+	border:none;
+	outline:none;
+}
+.form_code .area_code {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding: .6rem;
+	border:none;
+	outline:none;
+} */
+
+
+/* 
+.form_code button {
+	width: 40%;
+	text-align: center;
+	background-color: #00bab1;
+	color: white;
+	padding: .6rem;
+	margin:1rem auto 0rem;
+	border: none;
+	border-radius: .3rem;
+} */
+.product {
+	width: 90%;
+	margin-top: .3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product__list__item {
+	float: left;
+	width: 32%;
+	margin-left: .5rem;
+}
+=======
+
+body,html {
+	font-family: 'Times New Roman', Times, serif;
+	height: 100%;
+
+
+}
+
+.bg-img {
+	/* The image used */
+	background-image: url("img/a2image.jpg");
+  
+	/* Control the height of the image */
+	min-height: 380px;
+  
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+  }
+  
+/* Add styles to the form container */
+.container {
+	position: absolute;
+	right: 0;
+	margin: 20px;
+	max-width: 300px;
+	padding: 16px;
+	background-color: rgb(33, 209, 101);
+  }
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+	width: 90%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: whitesmoke;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+	background-color: rgb(225, 238, 49);
+	color: black;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	font-weight: bold;
+	opacity: 0.9;
+  }
+  
+  .btn:hover {
+	opacity: 1;
+  }
+
+/* .img-responsive {
+  max-width: 100%;
+  position: center;
+} */
+
+/* .a2_image{
+	   background-image: url(img/quiz.jpg);
+	   background-size: cover;
+	   height: 100vh;
+	   position: relative;
+
+		
+} */
+/* .a2_wrapper {
+	color:blue;
+	font-weight: bolder;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+} */
+/* .a2_wrapper h1 {
+	font-size: 2.4rem;
+	text-align: center;
+}
+.a2_wrapper span{
+	margin-left: 5rem;
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+
+.form_code {
+	text-align: center;
+}
+
+.form_code .post_code {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding: .6rem;
+	border:none;
+	outline:none;
+}
+.form_code .area_code {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding: .6rem;
+	border:none;
+	outline:none;
+} */
+
+
+/* 
+.form_code button {
+	width: 40%;
+	text-align: center;
+	background-color: #00bab1;
+	color: white;
+	padding: .6rem;
+	margin:1rem auto 0rem;
+	border: none;
+	border-radius: .3rem;
+} */
+.product {
+	width: 80%;
+	margin-top: .3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product__list__item {
+	float: left;
+	width: 32%;
+	margin-left: .5rem;
+}
+.container{
+	padding-left: 115%;
+	padding-right: 115%;
+}
+>>>>>>> 82634f93b6c16552c00700321461fb00fb5ace03
