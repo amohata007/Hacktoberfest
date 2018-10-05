@@ -1,7 +1,9 @@
+
 body,html {
 	font-family: 'Times New Roman', Times, serif;
 	height: 100%;
-	
+
+
 }
 
 .bg-img {
@@ -68,6 +70,7 @@ input[type=text], input[type=password] {
 	   background-size: cover;
 	   height: 100vh;
 	   position: relative;
+
 		
 } */
 /* .a2_wrapper {
@@ -126,7 +129,7 @@ input[type=text], input[type=password] {
 	border-radius: .3rem;
 } */
 .product {
-	width: 90%;
+	width: 80%;
 	margin-top: .3rem;
 	margin-left: auto;
 	margin-right: auto;
@@ -136,4 +139,8 @@ input[type=text], input[type=password] {
 	float: left;
 	width: 32%;
 	margin-left: .5rem;
+}
+.container{
+	padding-left: 115%;
+	padding-right: 115%;
 }
