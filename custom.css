@@ -1,7 +1,6 @@
 body,html {
 	font-family: 'Times New Roman', Times, serif;
-	height: 100%;
-	
+	height: 500%;
 }
 
 .bg-img {
@@ -9,7 +8,7 @@ body,html {
 	background-image: url("img/a2image.jpg");
   
 	/* Control the height of the image */
-	min-height: 380px;
+	min-height: 900px;
   
 	/* Center and scale the image nicely */
 	background-position: center;
@@ -45,7 +44,7 @@ input[type=text], input[type=password] {
   /* Set a style for the submit button */
   .btn {
 	background-color: rgb(225, 238, 49);
-	color: black;
+	color: grey;
 	padding: 16px 20px;
 	border: none;
 	cursor: pointer;
