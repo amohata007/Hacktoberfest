@@ -13,7 +13,6 @@
       body{
         background-image: url('https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2018/10/hacktoberfest-2018.jpg');
         height: 100%;
-        /*background-position: center;*/
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -22,21 +21,39 @@
         background-color: rgba(0,0,0,0.9);
         color: white;
       }
-      #linkdiv{
-        width: 40%;
-        margin: 0 auto;
+      #linkdiv1{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #linkdiv2{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     </style>
   </head>
   <body>
-
     <div class="container" id='box'>
-      <div id='linkdiv'>
-      <button type="button" onclick="location.href='https://hacktoberfest.digitalocean.com/';"class="btn btn-primary btn-lg">Hacktoberfest</button>
-      <button type="button" onclick="location.href='https://hacktoberfest.digitalocean.com/stats/';"class="btn btn-primary btn-lg">Check Your Progress</button>
-    </div>
+      <br>
+      <div id='linkdiv1'>
+      <button type="button" onclick="location.href='https://hacktoberfest.digitalocean.com/';"class="btn btn-primary btn-lg btn-block">Hacktoberfest</button></div>
+      <br>
+      <!-- <div id='linkdiv2'>
+      GitHub Username: <input type="text" id='username'>
+      <button type="button" onclick="status()"class="btn btn-primary btn-lg">Check Your Progress</button>
+    </div> -->
+    <div id='linkdiv2'>
+  
+    <input size='10' type="text" class="form-control" id="username" placeholder="GitHub Username">
+  <button onclick="status()" class="btn btn-primary">Check my status</button>
 
-      <h3>Contributors List</h3>
+
+    </div>
+<br><br>
+      <h3><strong>Contributors List</strong></h3>
   <ul>
 
   <li>Abhishek mohata - contributed to hacktoberfest</li>
@@ -158,17 +175,17 @@
     <li>Yash Satyajit Pradhan - contributed to hacktoberfest</li>
       <li>asheewee- contributed to hacktoberfest</li>
       <li>Drew Clements - Contributed to Hacktoberfest 2018</li>
-    
-        
-      
-      
-      
-
+      <li> shangeth - added webpage for this repo</li>
   </ul>
 
     </div>
 
+    <script type="text/javascript">
+      function status(){
+      var username = document.getElementById('username').value;
+      location.href='https://hacktoberfest.digitalocean.com/stats/'+ username}
 
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
