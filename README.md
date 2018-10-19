@@ -3,4 +3,4 @@
 # 2:-In index.html,just add your name in contributors list.
 # 3:-Create pull request
 # 4:-Then finally check your progress here - https://hacktoberfest.digitalocean.com/stats/
-
+[GitHub Page](https://shangeth.github.io/Hacktoberfest/)
