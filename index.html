@@ -1,67 +1,74 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Hacktoberfest 2018</title>
-    <style type="text/css">
-      body{
-        background-image: url('https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2018/10/hacktoberfest-2018.jpg');
-        height: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-      }
-      #box{
-        background-color: rgba(0,0,0,0.9);
-        color: white;
-      }
-      #linkdiv1{
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      #linkdiv2{
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container" id='box'>
-      <br>
-      <div id='linkdiv1'>
-      <button type="button" onclick="location.href='https://hacktoberfest.digitalocean.com/';"class="btn btn-primary btn-lg btn-block">Hacktoberfest</button></div>
-      <br>
-      <!-- <div id='linkdiv2'>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title>Hacktoberfest 2019</title>
+  <style type="text/css">
+    body {
+      background-image: url('https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2018/10/hacktoberfest-2018.jpg');
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    #box {
+      background-color: rgba(0, 0, 0, 0.9);
+      color: white;
+    }
+
+    #linkdiv1 {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #linkdiv2 {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container" id='box'>
+    <br>
+    <div id='linkdiv1'>
+      <button type="button" onclick="location.href='https://hacktoberfest.digitalocean.com/';"
+        class="btn btn-primary btn-lg btn-block">Hacktoberfest</button></div>
+    <br>
+    <!-- <div id='linkdiv2'>
       GitHub Username: <input type="text" id='username'>
       <button type="button" onclick="status()"class="btn btn-primary btn-lg">Check Your Progress</button>
     </div> -->
     <div id='linkdiv2'>
 
-    <input size='10' type="text" class="form-control" id="username" placeholder="GitHub Username">
-  <button onclick="status()" class="btn btn-primary">Check my status</button>
+      <input size='10' type="text" class="form-control" id="username" placeholder="GitHub Username">
+      <button onclick="status()" class="btn btn-primary">Check my status</button>
 
 
     </div>
-<br><br>
-      <h3><strong>Contributors List</strong></h3>
-  <ul>
-
+    <br><br>
+    <h3><strong>Contributors List</strong></h3>
+    <ul>
+      <li>Akashaf - contributed to hacktoberfest and change hacktoberfest year</li>
       <li>Abhishek mohata - contributed to hacktoberfest</li>
-    <li> Amarjeet Singh -Contributed to hacktoberfest</li>
-       <li>Shubham Purohit - contributed to hacktoberfest</li>
-       <li>vijayakumarGit - contributed to hacktoberfest</li>
-    <li>Lisa Broedlin - contributed to Hacktoberfest 2018</li>
-     <li>Nilesh Kumar - contributed to hacktoberfest</li>
+      <li> Amarjeet Singh -Contributed to hacktoberfest</li>
+      <li>Shubham Purohit - contributed to hacktoberfest</li>
+      <li>vijayakumarGit - contributed to hacktoberfest</li>
+      <li>Lisa Broedlin - contributed to Hacktoberfest 2018</li>
+      <li>Nilesh Kumar - contributed to hacktoberfest</li>
       <li>Amit moolwani- contributed to hacktoberfest</li>
       <li>Rajani - contributed to hacktoberfest</li>
       <li>Garima - contributed to hacktoberfest</li>
@@ -163,20 +170,28 @@
 
 
 
-  </ul>
+    </ul>
 
-   </div>
+  </div>
 
-    <script type="text/javascript">
-      function status(){
+  <script type="text/javascript">
+    function status() {
       var username = document.getElementById('username').value;
-      location.href='https://hacktoberfest.digitalocean.com/stats/'+ username}
+      location.href = 'https://hacktoberfest.digitalocean.com/stats/' + username
+    }
 
-    </script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+  </script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
