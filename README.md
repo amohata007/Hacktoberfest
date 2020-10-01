@@ -12,4 +12,4 @@ Now open `index.html` file and edit it to add your name to it. Don't add it at t
 Commit the changes by clicking on to 'Create a new branch for this commit and start a pull request.'
 
 ## 4:- Finally check your progress here - https://hacktoberfest.digitalocean.com
-Congrats! You just completed the standard _fork -> clone -> edit -> pull request_ workflow that you'll encounter often as a contributor!
+Congrats! You just completed the standard _fork -> edit -> pull request_ workflow that you'll encounter often as a contributor!
