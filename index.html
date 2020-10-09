@@ -1,61 +1,67 @@
 ﻿<!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Hacktoberfest 2019</title>
-    <style type="text/css">
-      body{
-        background-image: url('https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2018/10/hacktoberfest-2018.jpg');
-        height: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-      }
-      #box{
-        background-color: rgba(0,0,0,0.9);
-        color: white;
-      }
-      #linkdiv1{
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      #linkdiv2{
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      
-    </style>
-  </head>
-  <body>
-    <div class="container" id='box'>
-      <br>
-      <div id='linkdiv1'>
-      <button type="button" onclick="location.href='https://hacktoberfest.digitalocean.com/';"class="btn btn-primary btn-lg btn-block">Hacktoberfest</button></div>
-      <br>
-      <!-- <div id='linkdiv2'>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title>Hacktoberfest 2019</title>
+  <style type="text/css">
+    body {
+      background-image: url('https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2018/10/hacktoberfest-2018.jpg');
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    #box {
+      background-color: rgba(0, 0, 0, 0.9);
+      color: white;
+    }
+
+    #linkdiv1 {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #linkdiv2 {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container" id='box'>
+    <br>
+    <div id='linkdiv1'>
+      <button type="button" onclick="location.href='https://hacktoberfest.digitalocean.com/';"
+        class="btn btn-primary btn-lg btn-block">Hacktoberfest</button></div>
+    <br>
+    <!-- <div id='linkdiv2'>
       GitHub Username: <input type="text" id='username'>
       <button type="button" onclick="status()"class="btn btn-primary btn-lg">Check Your Progress</button>
     </div> -->
     <div id='linkdiv2'>
 
-    <input size='10' type="text" class="form-control" id="username" placeholder="GitHub Username">
-  <button onclick="status()" class="btn btn-primary">Check my status</button>
+      <input size='10' type="text" class="form-control" id="username" placeholder="GitHub Username">
+      <button onclick="status()" class="btn btn-primary">Check my status</button>
 
 
     </div>
-<br><br>
-      <h3><strong>Contributors List</strong></h3>
-  <ul>
+    <br><br>
+    <h3><strong>Contributors List</strong></h3>
+    <ul>
       <li>Arthur Mauricio (punisher077) - first contributed to HacktoberFest 2019 <3 </li>
       <li>Alice May- contributed to Hacktoberfest 2019</li>
       <li>Hemanth Tech -contributed to hacktoberfest</li>
@@ -117,6 +123,7 @@
       <li>Dwiky Chandra - contributed to hacktoberfest</li>
       <li>Yogesh Mehra - First time here</li>
       <li>Sergi Marquez- contributed to hacktoberfest</li>
+      <li>Dwi Guna- contributed to hacktoberfest</li>
       <li>Yogesh Mehra - First time here</li>
       <li>Kavindu Bimsara - First time at HactoberFest</li>
       <li>BackTraced - First time doing hacktoberfest</li>
@@ -180,20 +187,28 @@
       <li>kkimke - contributed to Hacktoberfest 2020</li>
 
 
-  </ul>
+    </ul>
 
-   </div>
+  </div>
 
-    <script type="text/javascript">
-      function status(){
+  <script type="text/javascript">
+    function status() {
       var username = document.getElementById('username').value;
-      location.href='https://hacktoberfest.digitalocean.com/stats/'+ username}
+      location.href = 'https://hacktoberfest.digitalocean.com/stats/' + username
+    }
 
-    </script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+  </script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
